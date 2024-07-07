@@ -1,0 +1,81 @@
+.problems{
+    background-color: aliceblue;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    min-width: 180;
+    column-gap: 5px;
+    
+}
+
+.container-image{
+    display: flex;
+    padding: 5px;
+    padding-left: 0;
+    justify-content: center;
+    
+}
+
+.container-info{
+    display:flex;
+    text-align: right;
+    padding: 5px;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;    
+}
+
+.box{
+    display: grid;
+    
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    /* background-color: antiquewhite; */
+}
+
+
+.item{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.input-text{
+    border: none;
+    background-color: aliceblue;
+    font-size: larger;
+}
+
+.sticky-notes{
+    height: 40vh;
+}
